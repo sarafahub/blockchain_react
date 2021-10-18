@@ -1,7 +1,7 @@
 import "../App.css";
 import React, { useState, useEffect } from "react";
 
-function Tracker() {
+function Tracker1() {
   const [posts, setPosts] = useState();
   const [toggle, setToggle] = useState(false);
   useEffect(async () => {
@@ -38,4 +38,4 @@ function Tracker() {
     </div>
   );
 }
-export default Tracker;
+export default Tracker1;

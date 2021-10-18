@@ -3,7 +3,8 @@ import './App.css';
 // import Counter from './components/Counter';
 // import Toggle from './components/Toggle';
 // import Tracker from './components/Tracker';
-import Tracker1 from './components/Tracker1';
+// import Tracker1 from './components/Tracker1';
+import Tracker2 from './components/Tracker2';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     {/* <Counter />
     <Toggle /> */}
     {/* <Tracker /> */}
-    <Tracker1 />
+    {/* <Tracker1 /> */}
+    <Tracker2 />
     </div>
 
   );
