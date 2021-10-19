@@ -32,6 +32,9 @@ function Tracker2() {
           ? posts.map((post, index) => (
             <div key={index}>
               <h3>{post.data.title}</h3>
+              <h3>{post.data.num_comments}</h3>
+              <h3>{post.data.t3}</h3>
+              <h3>{post.data.subreddit_id}</h3>
               <h2>{post.data.author}</h2>
               <li>
                 {post.data.author_fullname} { } <br />
